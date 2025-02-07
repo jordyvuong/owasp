@@ -1,4 +1,5 @@
 <?php
+
 // Récupération des variables d'environnement Docker
 $dbHost = getenv('DB_HOST') ?: 'localhost';
 $dbPort = getenv('DB_PORT') ?: '5432';
