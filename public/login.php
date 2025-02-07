@@ -1,5 +1,5 @@
 <?php
-session_start();
+require_once '../templates/header.php';
 require_once  '../src/db.php'; 
 
 if (isset($_SESSION['user_id'])) {
@@ -41,4 +41,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 require_once '../templates/login_form.php';
+
 ?>
