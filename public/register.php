@@ -1,5 +1,6 @@
 <?php 
-include_once('../db.php');
+require_once '../templates/header.php';
+require_once '../src/db.php';
 
 //fonction d'inscription 
 
