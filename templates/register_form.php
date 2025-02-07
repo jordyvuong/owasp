@@ -19,8 +19,8 @@
             <label for="password">Mot de passe :</label>
             <input type="password" name="password" required>
 
-            <label for="confirmpassword">Confirmer le mot de passe :</label>
-            <input type="password" name="confirmpassword" required>
+            <label for="confirmPassword">Confirmer le mot de passe :</label>
+            <input type="password" name="confirmPassword" required>
             
             <button type="submit">Se connecter</button>
         </form>
