@@ -21,7 +21,7 @@
             <input type="password" name="password" required>
 
             <label for="confirmpassword">Confirmer le mot de passe :</label>
-            <input type="confirmpassword" name="confirmpassword" required>
+            <input type="password" name="confirmpassword" required>
             
             <button type="submit">Se connecter</button>
         </form>
