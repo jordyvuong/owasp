@@ -16,11 +16,12 @@ function registerUser($pdo, $name, $password, $confirmPassword, $email) {
             $hashed_password = password_hash($password, PASSWORD_DEFAULT);
             
             // Préparation et exécution de la requête
-            $stmt = $pdo->prepare("INSERT INTO users (name, email, password, role_id) VALUES (:name, :email, :password, :2)");
+            $stmt = $pdo->prepare("INSERT INTO users (name, email, password, role_id) VALUES (:name, :email, :password, :role_id)");
             $stmt->execute([
                 'name' => $name,
                 'email' => $email,
-                'password' => $hashed_password
+                'password' => $hashed_password,
+                'role_id' => 2
             ]);
 
             return true; // Inscription réussie
