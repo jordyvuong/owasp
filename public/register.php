@@ -20,3 +20,4 @@ function registerUser($pdo, $name, $password, $email){
         }
     }
 }
+require_once '../templates/register_form.php';
