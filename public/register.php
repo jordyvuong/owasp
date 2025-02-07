@@ -1,5 +1,5 @@
 <?php 
-include_once('../db.php');
+include_once('../src/db.php');
 
 //fonction d'inscription 
 
